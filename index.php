@@ -18,7 +18,7 @@
                  <div class="col-4">
                          <form action="">
                              <div class="form-group">
-                                    <label for="identi+">Identificacion</label>
+                                    <label for="identi">Identificacion</label>
                                     <input type="number" class="form-control" id="identi" >
                                     <small id="emailHelp" class="form-text text-muted"></small>
                                  </div>
