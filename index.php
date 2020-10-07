@@ -11,50 +11,49 @@
         <h1>TIENDA.COM</h1>
         
     </header>  
-            <h1> <center> Registrate</center></h1>
+            <h1> <center> Registrese</center></h1>
     <main class="bg-dark text-white">
         <div class="container">
              <div class="row justify-content-center">
                  <div class="col-4">
-                         <form action="addDatos.php" method="POST" class="mt-5 mb-5">
+                         <form action="">
                              <div class="form-group">
-                                
+                                    <label for="identi">Identificacion</label>
+                                    <input type="number" class="form-control" id="identi" >
+                                    <small id="emailHelp" class="form-text text-muted"></small>
+                                 </div>
                                  <hr>
 
                                  <div class="form-group">
-                                    <label for="nom">Nombre</label>
-                                    <input type="text" class="form-control" id="nombre" name="nombre">
+                                    <label for="exampleInputEmail1">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
                                     <small id="emailHelp" class="form-text text-muted"></small>
                                  </div>
                                  <hr>
                                  <div class="form-group">
-                                    <label for="app">Apellido</label>
-                                    <input type="text" class="form-control" id="apellidos" name="apellidos">
+                                    <label for="exampleInputEmail1">Apellido</label>
+                                    <input type="text" class="form-control" id="apellidos" aria-describedby="emailHelp">
                                   
                                  </div>
-                                 <label for="cc">cedula</label>
-                                    <input type="number" class="form-control" id="cedula" name="cedula">
+                                 <hr>
+                                 <div class="form-group">
+                                    <label for="exampleInputEmail1">Edad</label>
+                                    <input type="number" class="form-control" id="edad" aria-describedby="emailHelp">
                                     <small id="emailHelp" class="form-text text-muted"></small>
                                  </div>
                                  <hr>
                                  <div class="form-group">
-                                    <label for="edd">Edad</label>
-                                    <input type="number" class="form-control" id="edad" name="edad">
-                                    <small id="emailHelp" class="form-text text-muted"></small>
-                                 </div>
-                                 <hr>
-                                 <div class="form-group">
-                                    <label for="tlf">Telefono</label>
-                                    <input type="number" class="form-control" id="movil" name="movil">
+                                    <label for="exampleInputEmail1">Telefono</label>
+                                    <input type="number" class="form-control" id="movil" aria-describedby="emailHelp">
                                     <small id="emailHelp" class="form-text text-muted"></small>
                                  </div>
                                  <div class="form-group">
-                                    <label for="dir">Direccion</label>
-                                    <input type="text" class="form-control" id="casa" name="casa">
+                                    <label for="exampleInputEmail1">Direccion</label>
+                                    <input type="text" class="form-control" id="casa" aria-describedby="emailHelp">
                                     <small id="emailHelp" class="form-text text-muted"></small>
                                  </div>
                                  <hr>
-                                <button type="submit"class ="btn btn-primary block" name="enviardatos">enviar</button>
+                                 <button type="submit" class="btn btn-outline-success">Enviar</button>
                                  
     
                             </form>
